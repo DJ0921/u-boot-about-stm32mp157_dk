@@ -55,10 +55,6 @@
 	clocks = <&rcc SPI2>, <&rcc SPI2_K>, <&rcc PLL3_Q>, <&rcc PLL3_R>;
 };
 
-&pmic {
-	u-boot,dm-pre-reloc;
-};
-
 &rcc {
 	st,clksrc = <
 		CLK_MPU_PLL1P
